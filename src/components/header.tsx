@@ -1,4 +1,5 @@
 import { Link } from "gatsby"
+import styled from '@emotion/styled';
 import PropTypes from "prop-types"
 import React from "react"
 
@@ -28,6 +29,7 @@ const Header = ({ siteTitle }: { siteTitle: string }) => (
         </Link>
       </h1>
     </div>
+    <Test>Hi!</Test>
   </header>
 )
 
@@ -38,5 +40,11 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 }
+
+const Test = styled.div`
+  background-color: yellow;
+  color: red;
+  font-size: 100px;
+`;
 
 export default Header
