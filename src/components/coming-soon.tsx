@@ -23,5 +23,6 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-aw
+  line-height: 0.9;
+  padding: 24px;
 `;
